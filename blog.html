@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- font -- lexend  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- custom css -->
+        <style>
+            body {
+                font-family: "Lexend", sans-serif;
+            }
+        </style>
+
+        <!-- daisy ui and tailwindcss.css cdn  -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <!-- header  -->
+        <header
+            class="bg-[#F9F7F3] mb-14 lg:mb-[80px] sticky top-0 bg-opacity-90"
+        >
+            <nav>
+                <ul
+                    class="flex justify-between items-center py-9 w-[90%] lg:w-[80%] mx-auto"
+                >
+                    <li class="">
+                        <a
+                            href="./index.html"
+                            class="text-xl font-semibold text-[#111111] bg-[#B4F461] py-3 px-8 rounded-lg"
+                            >Home</a
+                        >
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <img src="assets/logo.png" alt="" />
+                        <span
+                            class="text-xl hidden lg:block font-semibold text-[#111111]"
+                            >Donate Bangladesh</span
+                        >
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <img src="assets/coin.png" alt="" />
+                        <span
+                            class="text-xl font-medium text-[#111111] opacity-70"
+                            ><span id="currentBalance">5500</span> BDT</span
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="flex items-center w-[80%] mx-auto gap-1 mb-5">
+
+            <h1 class="text-3xl font-bold">Important FAQ  </h1>
+            <img class="w-[40px]" src="assets/faq.png" alt="">
+        </div>
+
+        <!-- QNA  -->
+        <div class="w-[80%] mx-auto space-y-2">
+
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                    What is the Document Object Model (DOM)?
+                </div>
+                <div class="collapse-content">
+                    <p>hello</p>
+                </div>
+            </div>
+
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                    How do you select an element from the DOM?
+                </div>
+                <div class="collapse-content">
+                    <p>hello</p>
+                </div>
+            </div>
+
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                    What is event delegation in the context of the DOM, and why is it useful?
+                </div>
+                <div class="collapse-content">
+                    <p>hello</p>
+                </div>
+            </div>
+
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                    How do you manipulate an element's attributes and styles using the DOM?
+                </div>
+                <div class="collapse-content">
+                    <p>hello</p>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
